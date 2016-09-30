@@ -1,0 +1,174 @@
+# ===============================
+#   Jekyll Gitignore by Joho
+# ===============================
+# Version   v0.4.0
+# Author    Jonathan Ho <joho@joho.io>
+# Created   17-May-2016
+# Updated   30-Sep-2016
+# Docs      http://git-scm.com/docs/gitignore
+# ===============================
+
+
+
+
+# -------------------------------
+#   Optional
+# -------------------------------
+
+# Environmental variable
+.env
+
+# For a library or gem, ignore the following if code intended to run in multiple environments:
+.ruby-gemset
+.ruby-version
+Gemfile.lock
+
+# RubyMotion use of CocoaPods:
+# https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
+# vendor/Pods/
+
+# Ignore the following unless supporting rvm <v1.11.0, or doing something fancyL
+# .rvmrc
+
+# -------------------------------
+
+
+
+
+# -------------------------------
+#   Jekyll
+# -------------------------------
+
+.jekyll-metadata
+_site
+
+# -------------------------------
+
+
+
+
+# -------------------------------
+#   Ruby
+# -------------------------------
+
+*.gem
+*.rbc
+/.bundle/
+/.config
+/.yardoc/
+/_yardoc/
+/coverage/
+/doc/
+/lib/bundler/man/
+/pkg/
+/rdoc/
+/spec/reports/
+/spec/examples.txt
+/test/tmp/
+/test/version_tmp/
+/tmp/
+/vendor/bundle
+/InstalledFiles
+
+# -------------------------------
+
+
+
+
+# -------------------------------
+#   RubyMotion
+# -------------------------------
+
+*.bridgesupport
+.dat*
+.repl_history
+build/
+build-iPhoneOS/
+build-iPhoneSimulator/
+
+# -------------------------------
+
+
+
+
+# -------------------------------
+#   npm & Bower
+# -------------------------------
+
+bower_components/
+node_modules/
+npm-debug.log
+
+# -------------------------------
+
+
+
+
+# -------------------------------
+#   Build/Runtime/Logs
+# -------------------------------
+
+*.css.map
+*.out
+*.pid
+*.seed
+.harvest/
+.idea/
+.sass-cache/
+.tmp/
+dist/
+journal/
+lib-cov/
+logs/
+pids/
+public/
+report/
+results/
+
+# -------------------------------
+
+
+
+
+# -------------------------------
+#   Database/Packages
+# -------------------------------
+
+*.7z
+*.csv
+*.dmg
+*.gz
+*.iso
+*.jar
+*.ldf
+*.log
+*.mdf
+*.rar
+*.sql
+*.sqlite
+*.tar
+*.zip
+
+# -------------------------------
+
+
+
+
+# -------------------------------
+#   Generated & Misc
+# -------------------------------
+
+*~
+*.lnk
+.DS_Store*
+._*
+*.sublime*
+~*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+packages
+ignore
+Thumbs.db
+
+# -------------------------------
