@@ -1,0 +1,128 @@
+/**
+ * Utilities\Variables
+ *
+ *
+ */
+
+
+
+
+/* Typography
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+//  Font Family
+// ------------------------------
+
+$font-family-base:  'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-family-mono:  'Source Code Pro', 'Lucida Console', Monaco, monospace;
+
+
+//  Font Size
+// ------------------------------
+
+$font-size-base:    16px;
+$font-size-small:   $font-size-base * 0.875;
+
+
+//  Line Height
+// ------------------------------
+
+$line-height-base:  1.5;
+
+
+//  Font Weight
+// ------------------------------
+
+$font-weight-base:  400;
+
+
+//  Spacing
+// ------------------------------
+
+$spacing-unit:      30px;
+
+/* End Typography –––––––––––––––––––––––––––––––– */
+
+
+
+
+
+
+
+
+/* Colours
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+//  Palette
+// ------------------------------
+
+$text-color:        #111111;
+$background-color:  #fdfdfd;
+$brand-color:       #2a7ae2;
+
+
+//  Greyscale
+// ------------------------------
+
+$grey-color:        #828282;
+$grey-color-light:  lighten($grey-color, 40%);
+$grey-color-dark:   darken($grey-color, 25%);
+
+/* End Colours ––––––––––––––––––––––––––––––––––– */
+
+
+
+
+
+
+
+
+/* Responsiveness
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+//  Widths
+// ------------------------------
+
+$content-width:     800px;
+
+$on-palm:           600px;
+$on-laptop:         800px;
+
+
+//  Breakpoint Widths
+// ------------------------------
+
+$bp-widths: (
+    'xs':  480px,
+    'sm':  640px,
+    'md':  800px,
+    'lg':  920px,
+    'xl': 1120px,
+);
+
+/* End Responsiveness –––––––––––––––––––––––––––– */
+
+
+
+
+
+
+
+
+/* Colours
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+/* End Typography –––––––––––––––––––––––––––––––– */
+
+
+
+
+
+
+
+
+/* Colours
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
